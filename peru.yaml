@@ -1,0 +1,7 @@
+imports:
+    docker_compose: .  # This is where we want peru to put the module.
+
+git module docker_compose:
+    url: https://github.com/alextanhongpin/docker-samples.git
+    export: postgres/
+    rev: f91c4a75b8a13ee23941a487e4b1f292c6158bd2
